@@ -1,0 +1,7 @@
+## Append samples of your project ##
+
+namespace: operator-scaling-package-example-system
+resources:
+  - guestbooks_test.yaml
+  # - webapp_v1_guestbook.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

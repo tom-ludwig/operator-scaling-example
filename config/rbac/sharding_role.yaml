@@ -1,0 +1,17 @@
+# permissions for operator-scaling package shard coordination.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  labels:
+    app.kubernetes.io/name: operator-scaling-package-example
+    app.kubernetes.io/managed-by: kustomize
+  name: sharding-role
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - pods
+  verbs:
+  - get
+  - list
+  - watch

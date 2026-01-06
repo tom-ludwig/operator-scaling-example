@@ -1,0 +1,60 @@
+---
+apiVersion: webapp.com.tomludwig/v1
+kind: Guestbook
+metadata:
+  name: guestbook-alpha
+  labels:
+    app.kubernetes.io/name: operator-scaling-package-example
+    app.kubernetes.io/managed-by: kustomize
+spec:
+  foo: "alpha"
+---
+apiVersion: webapp.com.tomludwig/v1
+kind: Guestbook
+metadata:
+  name: guestbook-beta
+  labels:
+    app.kubernetes.io/name: operator-scaling-package-example
+    app.kubernetes.io/managed-by: kustomize
+spec:
+  foo: "beta"
+---
+apiVersion: webapp.com.tomludwig/v1
+kind: Guestbook
+metadata:
+  name: guestbook-gamma
+  labels:
+    app.kubernetes.io/name: operator-scaling-package-example
+    app.kubernetes.io/managed-by: kustomize
+spec:
+  foo: "gamma"
+---
+apiVersion: webapp.com.tomludwig/v1
+kind: Guestbook
+metadata:
+  name: guestbook-delta
+  labels:
+    app.kubernetes.io/name: operator-scaling-package-example
+    app.kubernetes.io/managed-by: kustomize
+spec:
+  foo: "delta"
+---
+apiVersion: webapp.com.tomludwig/v1
+kind: Guestbook
+metadata:
+  name: guestbook-epsilon
+  labels:
+    app.kubernetes.io/name: operator-scaling-package-example
+    app.kubernetes.io/managed-by: kustomize
+spec:
+  foo: "epsilon"
+---
+apiVersion: webapp.com.tomludwig/v1
+kind: Guestbook
+metadata:
+  name: guestbook-zeta
+  labels:
+    app.kubernetes.io/name: operator-scaling-package-example
+    app.kubernetes.io/managed-by: kustomize
+spec:
+  foo: "zeta"
